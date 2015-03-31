@@ -1,0 +1,6 @@
+E:\GitHub\checkerboard\CheckerBoard\CheckerBoard\bin\Debug\CheckerBoard.exe.config
+E:\GitHub\checkerboard\CheckerBoard\CheckerBoard\bin\Debug\CheckerBoard.exe
+E:\GitHub\checkerboard\CheckerBoard\CheckerBoard\bin\Debug\CheckerBoard.pdb
+E:\GitHub\checkerboard\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.csprojResolveAssemblyReference.cache
+E:\GitHub\checkerboard\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.exe
+E:\GitHub\checkerboard\CheckerBoard\CheckerBoard\obj\Debug\CheckerBoard.pdb
