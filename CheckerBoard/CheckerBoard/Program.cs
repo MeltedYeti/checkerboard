@@ -20,21 +20,23 @@ namespace CheckerBoard
 
             for (int i = 0; i < r; i++) // row
             {
-                for (int j = 0; j < c; j++) // col
+                
+                var t = 0;
+                while (t < h)
                 {
-                    for (int k = 0; k < h; k++) // height
+                    v = IsEven(i) ? 'x' : 'o';
+                    var x = 0;
+                    while (x < c)
                     {
-                        for (int l = 0; l < c; l++) // col
+                        for (int j = 0; j < w; j++)
                         {
-                            for (int m = 0; m < w; m++) // width
-                            {
-                                sb.Append(v);
-                            }
-                            //sb.Append("/n");
-                            v = SwitchChar(v);
+                            sb.Append(v);
                         }
-                        sb.AppendLine();
+                        v = SwitchChar(v);
+                        x++;
                     }
+                    sb.AppendLine();
+                    t++;
                 }
             }
             Console.Write(sb.ToString());
@@ -45,6 +47,11 @@ namespace CheckerBoard
         {
             var v = value == 'x' ? 'o' : 'x';
             return v;
+        }
+
+        private static bool IsEven(int i)
+        {
+            return i%2 == 1;
         }
 
         protected class Board
